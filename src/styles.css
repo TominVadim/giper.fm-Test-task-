@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Haval-light';
+  src: url(/font/Haval-Light.otf);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+  
+}
+
+.close-img {
+  float: right;
+  width: 10%;
+  right: 10%;
+  cursor: pointer;
+}
+
+.close-text {
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Haval-light';
+  font-size: 30pt;
+  
+}
+
+#button {
+  width: 180px;
+  height: 180px;
+  border: none;
+  background-image: url(/img/giper.fm-button.png);
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+
+}
+
+#button:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 180px;
+}
+#button:active {
+  transform: scale(0.8);
+}
