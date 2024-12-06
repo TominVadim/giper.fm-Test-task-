@@ -46,15 +46,18 @@ body {
   width: 180px;
   height: 180px;
   border: none;
-  background-image: url(/img/giper.fm-button.png);
+  background-image: url(/img/giper.fm-button.svg);
   background-position: center;
+  background-color: #cafe37;
+  padding: 0;
   background-size: cover;
   cursor: pointer;
-  box-sizing: border-box;
+  border-radius: 180px;
 }
 
+
 #button:hover {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
   border-radius: 180px;
 }
 #button:active {

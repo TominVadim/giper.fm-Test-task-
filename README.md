@@ -16,7 +16,7 @@
 ├── fonts
 │ └── Haval-Light.otf         # Шрифт для использования в проекте
 ├── img
-│ ├── giper.fm-button.png     # Изображение кнопки
+│ ├── giper.fm-button.svg     # Изображение кнопки
 │ └── hexlet-close-button.png # Изображение кнопки закрытия
 ├── src
 │ ├── app.js                  # JavaScript файл для функциональности
