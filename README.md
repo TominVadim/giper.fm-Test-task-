@@ -13,7 +13,7 @@
 ```
 /giper.fm-Test-task-
 │
-├── font
+├── fonts
 │ └── Haval-Light.otf         # Шрифт для использования в проекте
 ├── img
 │ ├── giper.fm-button.png     # Изображение кнопки
