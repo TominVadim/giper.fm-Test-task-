@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Haval-light';
-  src: url(/font/Haval-Light.otf);
+  src: url(/fonts/Haval-Light.otf);
 }
 body {
   display: flex;
