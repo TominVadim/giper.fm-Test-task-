@@ -10,3 +10,4 @@ function closePopup() {
     popup.style.display = 'none';
     button.style.display = 'block';
 }
+

@@ -19,7 +19,7 @@
 │ ├── giper.fm-button.svg     # Изображение кнопки
 │ └── hexlet-close-button.png # Изображение кнопки закрытия
 ├── src
-│ ├── app.js                  # JavaScript файл для функциональности
+│ ├── script.js                  # JavaScript файл для функциональности
 │ └── styles.css              # CSS файл для стилизации
 ├── index.html                # Основной HTML файл
 └── README.md                 # Файл документации
