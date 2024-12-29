@@ -10,21 +10,14 @@ body {
   margin: 0;
   background-color: #f0f0f0;
 }
-#popup {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+dialog {
   width: 400px;
   height: 200px;
   background-color: white;
-
-  border: 1px solid #ccc;
+  border: none;
   border-radius: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  
 }
 
 

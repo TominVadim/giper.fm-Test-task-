@@ -2,12 +2,12 @@ const button = document.getElementById('button');
 const popup = document.getElementById('popup');
 
 button.onclick = function() {
-    popup.style.display = 'block';
+    popup.showModal();
     button.style.display = 'none';
 };
 
 function closePopup() {
-    popup.style.display = 'none';
+    popup.close();
     button.style.display = 'block';
 }
 
